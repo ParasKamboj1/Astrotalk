@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".sighnup_page">
+
+
+    <ImageView
+        android:id="@+id/sighnup.image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/undraw_undraw_undraw_undraw_sign_up_ln1s__1__s4bc__1__ee41__1__kf4d_1" />
+
+    <TextView
+        android:id="@+id/getstarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:text="Welcome back"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="sign in to access your account"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:textSize="18dp"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:drawableEnd="@drawable/mail"
+
+        android:background="@drawable/rectangle_5"
+        android:hint="Full name" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView4"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:textSize="18dp"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:drawableEnd="@drawable/lock"
+
+        android:background="@drawable/rectangle_5"
+        android:hint="Full name" />
+
+
+
+
+
+
+
+
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbutton"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/purple"
+        android:gravity="center"
+        android:text="Login"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/loginbutton"
+        android:layout_marginTop="20dp"
+        android:text="Already a member? Log In"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

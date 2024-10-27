@@ -1,184 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context=".sighnup_page">
 
-
-    <ImageView
-        android:id="@+id/sighnup.image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        app:srcCompat="@drawable/sighnupimp" />
-
-    <TextView
-        android:id="@+id/getstarted"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:layout_marginTop="159dp"
-        android:gravity="center"
-        android:text="Get Started"
-        android:textSize="45sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/text2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="210dp"
-        android:gravity="center"
-        android:text="by creating a free account"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
-        android:textSize="18dp"
-        android:padding="20dp"
-        android:drawableEnd="@drawable/user"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
-
-        android:background="@drawable/rectangle_5"
-        android:hint="Full name" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
-        android:textSize="18dp"
-        android:padding="20dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="390dp"
-        android:drawableEnd="@drawable/mail"
-
-        android:background="@drawable/rectangle_5"
-        android:hint="Full name" />
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
-        android:textSize="18dp"
-        android:padding="20dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="480dp"
-        android:drawableEnd="@drawable/smartphone"
-
-        android:background="@drawable/rectangle_5"
-        android:hint="Full name" />
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
-        android:textSize="18dp"
-        android:padding="20dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="570dp"
-        android:drawableEnd="@drawable/lock"
-
-        android:background="@drawable/rectangle_5"
-        android:hint="Full name" />
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:id="@+id/cccc"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView6"
-        android:layout_marginTop="80dp"
-        >
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_alignParentEnd="true"
-            android:text="By checking the box you agree to our"
-            android:textSize="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.304"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" Terms"
-            android:textColor="#6C63FF"
-            android:textSize="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.006"
-            app:layout_constraintStart_toEndOf="@+id/textView"
-            tools:layout_editor_absoluteY="1dp" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" and"
-            android:textSize="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/textView8"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" Condition"
-            android:textColor="#6C63FF"
-            android:textSize="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/textView9"
-            app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/signup_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="4dp"
-            app:layout_constraintEnd_toStartOf="@+id/textView"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/rectangle_6"
-            tools:layout_editor_absoluteY="1dp" />
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            app:srcCompat="@drawable/undraw_undraw_undraw_undraw_sign_up_ln1s__1__s4bc__1__ee41__1__kf4d_1" />
 
+        <TextView
+            android:id="@+id/getstarted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="159dp"
+            android:gravity="center"
+            android:text="Get Started"
+            android:textSize="45sp"
+            android:textStyle="bold" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:gravity="center"
+            android:text="by creating a free account"
+            android:textSize="16sp" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/loginbutton"
-        style="@android:style/Widget.Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginRight="30dp"
-        android:background="@color/purple"
-        android:layout_below="@+id/cccc"
-        android:gravity="center"
-        android:text="Login"
+        <EditText
+            android:id="@+id/textview3"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:textSize="18dp"
+            android:padding="20dp"
+            android:inputType="text"
+            android:drawableEnd="@drawable/user"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/rectangle_5"
+            android:hint="Full name" />
 
-        android:textSize="20dp" />
+        <EditText
+            android:id="@+id/emailsignup"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:textSize="18dp"
+            android:padding="20dp"
+            android:inputType="textEmailAddress"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="390dp"
+            android:drawableEnd="@drawable/mail"
+            android:background="@drawable/rectangle_5"
+            android:hint="Email" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_below="@id/loginbutton"
-        android:layout_marginTop="20dp"
-        android:text="Already a member? Log In"
-        android:layout_centerHorizontal="true"/>
+        <EditText
+            android:id="@+id/phonenumbersignup"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:textSize="18dp"
+            android:padding="20dp"
+            android:inputType="number"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="480dp"
+            android:drawableEnd="@drawable/smartphone"
+            android:background="@drawable/rectangle_5"
+            android:hint="Phone Number" />
 
-</RelativeLayout>
+        <EditText
+            android:id="@+id/passwordsignup"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:textSize="18dp"
+            android:padding="20dp"
+            android:inputType="textPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="570dp"
+            android:drawableEnd="@drawable/lock"
+            android:background="@drawable/rectangle_5"
+            android:hint="Password" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cccc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordsignup"
+            android:layout_marginTop="80dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By checking the box you agree to our"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.304"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Terms"
+                android:textColor="#6C63FF"
+                android:textSize="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.006"
+                app:layout_constraintStart_toEndOf="@+id/textView"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" and"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView8"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Condition"
+                android:textColor="#6C63FF"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView9"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                app:layout_constraintEnd_toStartOf="@+id/textView"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/rectangle_6"
+                tools:layout_editor_absoluteY="1dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signupbutton"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/purple"
+            android:layout_below="@+id/cccc"
+            android:gravity="center"
+            android:text="Sign Up"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/loginpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signupbutton"
+            android:layout_marginTop="20dp"
+            android:textSize="17dp"
+            android:text="Already a member? Log In"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "428307723601",
+    "project_id": "project1-59e2a",
+    "storage_bucket": "project1-59e2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428307723601:android:1c2a0b19c72290a307cf70",
+        "android_client_info": {
+          "package_name": "com.example.astrotalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428307723601-ogvhpidedp8chv5dvt6vi38qd187sfsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqIVQKfVcFS6-gcS5DktKESXw84PomLqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428307723601-ogvhpidedp8chv5dvt6vi38qd187sfsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428307723601:android:53b59a4f7c039c5107cf70",
+        "android_client_info": {
+          "package_name": "com.example.project1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428307723601-ogvhpidedp8chv5dvt6vi38qd187sfsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqIVQKfVcFS6-gcS5DktKESXw84PomLqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428307723601-ogvhpidedp8chv5dvt6vi38qd187sfsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

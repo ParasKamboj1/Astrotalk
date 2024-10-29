@@ -3,5 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="purple">#6C63FF</color>
+    <color name="lightblue">#354389</color>
+    <color name="darkpink">#FF5761</color>
+    <color name="yellow">#D39646</color>
+    <color name="orrange">#F79334</color>
+    
 
 </resources>
